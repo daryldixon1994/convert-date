@@ -1,0 +1,42 @@
+* {
+  font-family: "Lato", "sans-serif";
+}
+body {
+  min-height: 99.7vh;
+  margin: 0;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.output {
+  display: flex;
+  gap: 50px;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #d1fad4;
+  color: #331b7c;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+button {
+  all: unset;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+span {
+  color: #a1f4a7;
+}
+h1,
+h2 {
+  color: #331b7c;
+}
